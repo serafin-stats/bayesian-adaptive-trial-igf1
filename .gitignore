@@ -1,0 +1,5 @@
+igf1_sample_1.csv
+*.pyc
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
