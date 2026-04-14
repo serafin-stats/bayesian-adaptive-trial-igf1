@@ -93,9 +93,9 @@ At each interim analysis (every 20 patients per arm, after a burn-in of 40):
 
 | Metric | Alternative (δ = −0.15) | Null (δ = 0) |
 |--------|------------------------|--------------|
-| Power / Type I error | From simulation | From simulation |
-| Mean sample size | From simulation | From simulation |
-| Sample size savings vs fixed N=200 | From simulation | — |
+| Power / Type I error | 0.999 | 0.066 |
+| Mean sample size | 65 | 166 |
+| Sample size savings vs fixed N=200 | 67.5%  | 17% |
 
 > Run the notebook to populate this table with your simulation output.
 
@@ -168,7 +168,7 @@ jupyter notebook bayesian_adaptive_trial_igf1.ipynb
 ## Context & Companion Work
 
 This project is an independent extension of coursework from
-**PM-520: Advanced Statistical Computing** (Advanced Biostatistics graduate program).
+**PM-520: Advanced Statistical Computing** (Biostatistics Graduate Program).
 
 The PM-520 course covered:
 - Numerical stability and automatic differentiation (JAX)
@@ -181,8 +181,8 @@ The PM-520 course covered:
 
 | Project | Methods | Language |
 |---------|---------|----------|
-| [Breast implant ratio analysis](https://github.com/yourusername/breast-implant-ratio-analysis) | Ordinal & binary regression, Shiny | R |
-| [PM-520 lab notebooks](https://github.com/yourusername/advanced-statistical-computing) | MCMC, HMC, variational inference, JAX | Python |
+| [Breast implant ratio analysis](https://github.com/serafin-stats/breast-implant-ratio-analysis) | Ordinal & binary regression, Shiny | R |
+| [PM-520 lab notebooks](https://github.com/serafin-stats/advanced-statistical-computing) | MCMC, HMC, variational inference, JAX | Python |
 | This project | Bayesian adaptive trial simulation | Python + JAX |
 
 ---
