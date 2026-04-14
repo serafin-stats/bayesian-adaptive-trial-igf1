@@ -115,7 +115,7 @@ At each interim analysis (every 20 patients per arm, after a burn-in of 40):
 
 ```
 .
-├── bayesian_adaptive_trial_igf1.ipynb   # Main notebook (Sections 1–5)
+├── bayesian_adaptive_trial_igf1_3.ipynb   # Main notebook (Sections 1–5)
 ├── README.md                            # This file
 ├── fig_igf1_distribution.png            # Section 2: UK Biobank IGF-1 distribution
 ├── fig_prior_distribution.png           # Section 2: Prior with reference effects
@@ -147,7 +147,7 @@ pip install numpy pandas matplotlib scipy jax scikit-learn
 #    Edit DATA_PATH in Section 2, Cell 1 of the notebook
 
 # 4. Run the notebook
-jupyter notebook bayesian_adaptive_trial_igf1.ipynb
+jupyter notebook bayesian_adaptive_trial_igf1_3.ipynb
 ```
 
 ---
