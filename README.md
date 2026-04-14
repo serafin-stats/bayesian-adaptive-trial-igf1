@@ -97,8 +97,6 @@ At each interim analysis (every 20 patients per arm, after a burn-in of 40):
 | Mean sample size | 65 | 166 |
 | Sample size savings vs fixed N=200 | 67.5%  | 17% |
 
-> Run the notebook to populate this table with your simulation output.
-
 ### Key figures
 
 **Posterior tightening** — how the distribution over δ narrows as evidence accumulates:
